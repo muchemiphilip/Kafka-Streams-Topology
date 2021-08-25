@@ -1,6 +1,10 @@
 # Kafka-Streams-Topology
-##A real-time Kafka Streams Topology implementation
-###This is a real-time Kafka Stream Application that perfoms the following ETL Operation 
+
+## A real-time Kafka Streams Topology implementation
+
+### This is a real-time Kafka Stream Application that perfoms the following ETL Operation, The Invoice data is provided by a random Invoice Simulator that persists the data to a Kafka Topic.
+
+
 
 1. Select Invoices where DeliveryType = "HOME-DELIVERY" and push them to the shipment service queue.
 
